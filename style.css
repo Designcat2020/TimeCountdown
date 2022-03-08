@@ -9,6 +9,8 @@ body{
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+     min-height: 150vh;
+    margin:0;
   }
 
 .text{
@@ -23,7 +25,11 @@ body{
 
 .countdown-container{
     display:flex;
-    margin-bottom: 12rem;
+     flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    
 }
 
 .big-text{
